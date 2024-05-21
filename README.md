@@ -58,7 +58,7 @@ $ terraform apply
 - doc section in-progress
 
 ## GitHub Actions CI/CD Pipeline Architecture Diagram
-- doc section in-progress
+![GitHub Actions CI/CD Pipeline Architecture Diagram](diagrams/gh-actions.png)
 
 ## Slide Deck (including future recommendations and enhancements):
 - doc section in-progress
