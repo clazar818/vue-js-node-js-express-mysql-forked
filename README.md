@@ -52,7 +52,7 @@ $ terraform apply
 ## PowerShell Script to Test Our API:
 - The following PowerShell script can be used to validate that the backend/API are working properly:
   - https://github.com/clazar818/vue-js-node-js-express-mysql-forked/blob/master/test-api.ps1
-- Running the script, will add a new "Tutorial" into the database via the API (PUT request).
+- Running the script, will add a new "Tutorial" into the database via the API (POST request).
 
 ## AWS Infrastructure Architecture Diagram
 - doc section in-progress
