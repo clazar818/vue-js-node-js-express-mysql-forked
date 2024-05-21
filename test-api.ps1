@@ -3,8 +3,8 @@ $url = "http://main-lb-263015034.us-east-1.elb.amazonaws.com/api/tutorials"
 
 # Create the JSON body
 $body = @{
-    title       = "TestData"
-    description = "TestData"
+    title       = "TestData3"
+    description = "TestData3"
 } | ConvertTo-Json
 
 # Make the POST request
