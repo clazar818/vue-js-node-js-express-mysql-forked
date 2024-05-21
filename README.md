@@ -39,15 +39,14 @@ $ docker run -it --rm --name node-app-container -p 8080:8080 node-app
 $ cd infra
 ```
 1. Once in the infra repo, we must initialize our .terraform directory:
-2. Navigate to the infra folder which contains our infrastructure related files (Terraform IaC).
 ```bash
 $ terraform init
 ```
-3. We will now run terraform plan in order to preview upcoming infrastructure changes, which is tracked via our state file:
+2. We will now run terraform plan in order to preview upcoming infrastructure changes, which is tracked via our state file:
 ```bash
 $ terraform plan
 ```
-4. Finally, once the plan has been reviewed, we are ready to provision our infrastructure via terraform apply:
+3. Finally, once the plan has been reviewed, we are ready to provision our infrastructure via terraform apply:
 ```bash
 $ terraform apply
 ```
