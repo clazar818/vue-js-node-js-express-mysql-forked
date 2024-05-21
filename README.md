@@ -4,10 +4,12 @@ We have introduced the following high level infrastructure features:
  - Infrastructure as code (IaC) via Terraform (**all infra managed through Terraform**).
  - Containerized the application via Docker (Dockerfile).
  - Orchestrated the application via ECS Fargate (hosted via ECR).
+ - CloudWatch logging for observability. 
  - Implemented a CI/CD pipeline via GitHub Actions.
  - Launched MySQL via RDS (included via Terraform). Hosted within a private subnet to ensure proper security.
  - Launched VPC, ALB, and additional AWS related networking resources to host our application.
  - Developed a PowerShell script to validate/health check API connectivity.
+ - Created an EC2 Bastion server (public subnet) to test internal network database connectivity.
 
 Additional details can be found in our infrastructure architecture diagram.
 
@@ -55,7 +57,7 @@ $ terraform apply
 - Running the script, will add a new "Tutorial" into the database via the API (POST request).
 
 ## AWS Infrastructure Architecture Diagram
-- doc section in-progress
+![AWS Infrastructure Architecture Diagram](diagrams/aws.png)
 
 ## GitHub Actions CI/CD Pipeline Architecture Diagram
 ![GitHub Actions CI/CD Pipeline Architecture Diagram](diagrams/gh-actions.png)
