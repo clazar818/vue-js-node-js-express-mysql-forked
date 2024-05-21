@@ -1,7 +1,7 @@
 # System Description
 The following Node.js application source code has been forked from the below repository. 
 We have introduced the following high level infrastructure features: 
- - Infrastructure as code (IaC) via Terraform (all infra managed through Terraform).
+ - Infrastructure as code (IaC) via Terraform (**all infra managed through Terraform**).
  - Containerized the application via Docker (Dockerfile).
  - Orchestrated the application via ECS Fargate (hosted via ECR).
  - Implemented a CI/CD pipeline via GitHub Actions.
