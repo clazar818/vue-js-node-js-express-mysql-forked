@@ -19,11 +19,38 @@ Additional details can be found in our infrastructure architecture diagram.
 - http://main-lb-263015034.us-east-1.elb.amazonaws.com/#/
 
 ## Instructions on running the application locally via containerization (Docker)
-- doc section in-progress
+1. Navigate to the root directory of your project where the Dockerfile is located:
+```bash
+$ cd vue-js-node-js-express-mysql-forked
+```
+2. Build your Docker image:
+```bash
+$ docker build -t node-app .
+```
+3. Run your Docker image locally:
+```bash
+$ docker run -it --rm --name node-app-container -p 8080:8080 node-app
+```
 
 ## Instructions on launching the application onto AWS (ECS) via Terraform IaC (This includes launching our VPC and related resources.)
-- doc section in-progress
-
+- Since we are using Terraform IaC, we will need to provision our resources in AWS with this method:
+1. Navigate to the infra folder which contains our infrastructure related files (Terraform IaC).
+```bash
+$ cd infra
+```
+1. Once in the infra repo, we must initialize our .terraform directory:
+2. Navigate to the infra folder which contains our infrastructure related files (Terraform IaC).
+```bash
+$ terraform init
+```
+3. We will now run terraform plan in order to preview upcoming infrastructure changes, which is tracked via our state file:
+```bash
+$ terraform plan
+```
+4. Finally, once the plan has been reviewed, we are ready to provision our infrastructure via terraform apply:
+```bash
+$ terraform apply
+```
 ## PowerShell Script to Test Our API:
 - The following PowerShell script can be used to validate that the backend/API are working properly:
   - https://github.com/clazar818/vue-js-node-js-express-mysql-forked/blob/master/test-api.ps1
