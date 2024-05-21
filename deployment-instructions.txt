@@ -1,4 +1,0 @@
-aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 305661536665.dkr.ecr.us-east-1.amazonaws.com
-docker build -t node-app .
-docker tag node-app:latest 305661536665.dkr.ecr.us-east-1.amazonaws.com/node-app:latest
-docker push 305661536665.dkr.ecr.us-east-1.amazonaws.com/node-app:latest
