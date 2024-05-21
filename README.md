@@ -14,7 +14,6 @@ Additional details can be found in our infrastructure architecture diagram.
 ## Forked from the below repository:
 - https://github.com/bezkoder/vue-js-node-js-express-mysql
 
-
 ## Application URL (ALB DNS):
 - http://main-lb-263015034.us-east-1.elb.amazonaws.com/#/
 
@@ -53,14 +52,13 @@ $ terraform apply
 ## PowerShell Script to Test Our API:
 - The following PowerShell script can be used to validate that the backend/API are working properly:
   - https://github.com/clazar818/vue-js-node-js-express-mysql-forked/blob/master/test-api.ps1
+- Running the script, will add a new "Tutorial" into the database via the API (PUT request).
 
 ## AWS Infrastructure Architecture Diagram
 - doc section in-progress
 
-
 ## GitHub Actions CI/CD Pipeline Architecture Diagram
 - doc section in-progress
-
 
 ## Slide Deck (including future recommendations and enhancements):
 - doc section in-progress
