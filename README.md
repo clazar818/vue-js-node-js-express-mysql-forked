@@ -1,15 +1,15 @@
 # System Description
 The following Node.js application source code has been forked from the below repository. 
 We have introduced the following high level infrastructure features: 
- - Infrastructure as code (IaC) via Terraform (**all infra managed through Terraform**).
+ - Infrastructure as code (IaC) via Terraform (**all infra managed through Terraform, except the EC2 bastion was created manually for testing purposes**).
  - Containerized the application via Docker (Dockerfile).
- - Orchestrated the application via ECS Fargate (hosted via ECR).
+ - Orchestrated the application via ECS Fargate (hosted via ECR) using multiple az's for high availability.
  - CloudWatch logging for observability. 
  - Implemented a CI/CD pipeline via GitHub Actions.
  - Launched MySQL via RDS (included via Terraform). Hosted within a private subnet to ensure proper security.
  - Launched VPC, ALB, and additional AWS related networking resources to host our application.
  - Developed a PowerShell script to validate/health check API connectivity.
- - Created an EC2 Bastion server (public subnet) to test internal network database connectivity.
+ - Created an EC2 Bastion server (within public subnet) to test internal network database connectivity.
 
 Additional details can be found in our infrastructure architecture diagram.
 
