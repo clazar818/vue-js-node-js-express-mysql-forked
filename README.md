@@ -61,6 +61,3 @@ $ terraform apply
 
 ## GitHub Actions CI/CD Pipeline Architecture Diagram
 ![GitHub Actions CI/CD Pipeline Architecture Diagram](diagrams/gh-actions.png)
-
-## Slide Deck (including future recommendations and enhancements):
-- Slide Deck in-progress
