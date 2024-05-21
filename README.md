@@ -11,23 +11,25 @@ We have introduced the following high level infrastructure features:
 
 Additional details can be found in our infrastructure architecture diagram.
 
-## Forked from the below Repo:
+## Forked from the below repository:
 - https://github.com/bezkoder/vue-js-node-js-express-mysql
 
 ## Instructions on running the application locally via containerization (Docker)
 - doc section in-progress
 
-
 ## Instructions on launching the application onto AWS (ECS) via Terraform IaC (This includes launching our VPC and related resources.)
 - doc section in-progress
 
+## PowerShell Script to Test Our API:
+- The following PowerShell script can be used to validate that the backend/API are working properly:
+  - https://github.com/clazar818/vue-js-node-js-express-mysql-forked/blob/master/test-api.ps1
 
 ## AWS Infrastructure Architecture Diagram
 - doc section in-progress
 
+
+## GitHub Actions CI/CD Pipeline Architecture Diagram
+- doc section in-progress
+
+
 ## Slide Deck (including future recommendations and enhancements):
-- doc section in-progress
-
-
-## PowerShell Script to Test Our API:
-- doc section in-progress
