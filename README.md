@@ -1,12 +1,13 @@
 # System Description
 The following Node.js application source code has been forked from the below repository. 
 We have introduced the following high level infrastructure features: 
- - Infrastructure as code (IaC) via Terraform.
+ - Infrastructure as code (IaC) via Terraform (all infra managed through Terraform).
  - Containerized the application via Docker (Dockerfile).
  - Orchestrated the application via ECS Fargate (hosted via ECR).
  - Implemented a CI/CD pipeline via GitHub Actions.
  - Launched MySQL via RDS (included via Terraform). Hosted within a private subnet to ensure proper security.
  - Launched VPC, ALB, and additional AWS related networking resources to host our application.
+ - Developed a PowerShell script to validate/health check API connectivity.
 
 Additional details can be found in our infrastructure architecture diagram.
 
@@ -17,7 +18,7 @@ Additional details can be found in our infrastructure architecture diagram.
 - doc section in-progress
 
 
-## Instructions on launching the application onto AWS via Terraform IaC
+## Instructions on launching the application onto AWS (ECS) via Terraform IaC (This includes launching our VPC and related resources.)
 - doc section in-progress
 
 
@@ -25,4 +26,8 @@ Additional details can be found in our infrastructure architecture diagram.
 - doc section in-progress
 
 ## Slide Deck (including future recommendations and enhancements):
+- doc section in-progress
+
+
+## PowerShell Script to Test Our API:
 - doc section in-progress
