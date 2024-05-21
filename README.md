@@ -1,50 +1,28 @@
-# Vue.js + Node.js Express + MySQL: CRUD example on same server/port
+# System Description
+The following Node.js application source code has been forked from the below repository. 
+We have introduced the following high level infrastructure features: 
+ - Infrastructure as code (IaC) via Terraform.
+ - Containerized the application via Docker (Dockerfile).
+ - Orchestrated the application via ECS Fargate (hosted via ECR).
+ - Implemented a CI/CD pipeline via GitHub Actions.
+ - Launched MySQL via RDS (included via Terraform). Hosted within a private subnet to ensure proper security.
+ - Launched VPC, ALB, and additional AWS related networking resources to host our application.
 
-For more detail, please visit:
-> [How to serve/combine Vue App with Express](https://bezkoder.com/serve-vue-app-express/)
+Additional details can be found in our infrastructure architecture diagram.
 
-> [Vue.js CRUD App with Vue Router & Axios](https://bezkoder.com/vue-js-crud-app/)
+## Forked from the below Repo:
+- https://github.com/bezkoder/vue-js-node-js-express-mysql
 
-> [Build Node.js Rest APIs with Express, Sequelize & MySQL](https://bezkoder.com/node-js-express-sequelize-mysql/)
+## Instructions on running the application locally via containerization (Docker)
+- doc section in-progress
 
-More Practice:
-> [Vue Pagination with Axios and API example](https://bezkoder.com/vue-pagination-axios/)
 
-> [Server side Pagination in Node.js with Sequelize and MySQL](https://bezkoder.com/node-js-sequelize-pagination-mysql/)
+## Instructions on launching the application onto AWS via Terraform IaC
+- doc section in-progress
 
-> [Deploying/Hosting Node.js app on Heroku with MySQL database](https://bezkoder.com/deploy-node-js-app-heroku-cleardb-mysql/)
 
-Associations:
-> [Sequelize Associations: One-to-Many Relationship example](https://bezkoder.com/sequelize-associate-one-to-many/)
+## AWS Infrastructure Architecture Diagram
+- doc section in-progress
 
-> [Sequelize Associations: Many-to-Many Relationship example](https://bezkoder.com/sequelize-associate-many-to-many/)
-
-Fullstack with Node.js Express:
-> [Vue.js + Node.js Express + MySQL](https://bezkoder.com/vue-js-node-js-express-mysql-crud-example/)
-
-> [Vue.js + Node.js Express + PostgreSQL](https://bezkoder.com/vue-node-express-postgresql/)
-
-> [Vue.js + Node.js Express + MongoDB](https://bezkoder.com/vue-node-express-mongodb-mevn-crud/)
-
-Fullstack with Spring Boot:
-> [Vue.js + Spring Boot](https://bezkoder.com/spring-boot-vue-js-crud-example/)
-
-> [Vue.js + Spring Boot + MongoDB](https://bezkoder.com/spring-boot-vue-mongodb/)
-
-Fullstack with Django:
-> [Vue.js + Django](https://bezkoder.com/django-vue-js-rest-framework/)
-
-Serverless with Firebase:
-> [Vue Firebase Realtime Database: CRUD example](https://bezkoder.com/vue-firebase-realtime-database/)
-
-> [Vue Firestore CRUD example](https://bezkoder.com/vue-firestore-crud/)
-
-## Project setup
-```
-npm install
-```
-
-### Run
-```
-node server.js
-```
+## Slide Deck (including future recommendations and enhancements):
+- doc section in-progress
