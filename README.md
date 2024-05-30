@@ -16,7 +16,7 @@ Additional details can be found in our infrastructure architecture diagram.
 ## Forked from the below repository:
 - https://github.com/bezkoder/vue-js-node-js-express-mysql
 
-## Application URL (ALB DNS):
+## Application URL (ALB DNS): (Infra has been terminated as of now - the below is for retrospective purposes)
 - http://main-lb-263015034.us-east-1.elb.amazonaws.com/#/
 
 ## Instructions on running the application locally via containerization (Docker)
